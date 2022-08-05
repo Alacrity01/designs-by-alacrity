@@ -26,6 +26,7 @@ def get_colors_dict():
 		'natural_rust':(161, 113, 63),
 		'slate':(38, 38, 38),
 		'scratched_slate':(64, 64, 64),
+		'cyberyellow':(216, 252, 63),
 	}
 	return colors
 
@@ -36,7 +37,12 @@ def get_themes():
 			colors['slate'],
 			colors['scratched_slate'],
 			colors['natural_rust']
-		]
+		],
+		'cyberslate':[
+			colors['slate'],
+			colors['scratched_slate'],
+			colors['cyberyellow']
+		],
 	}
 	return themes
 
