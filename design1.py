@@ -1,5 +1,4 @@
 # import tkinter as tk
-from signal import sigpending
 import turtle as trt
 
 import rgb_colors_by_alacrity as CustomColors
